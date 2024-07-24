@@ -1,0 +1,152 @@
+First few rows of the dataset:
+     id date_reach  msm  fsw  pwid  tg  other  hiv_edu  cdm_lu  hts_info  sti_info  prep_pep
+0  001m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+1  001m 2021-09-14    1    0     0   0      0        1       1         1         1         1
+2  001m 2022-02-01    1    0     0   0      0        1       1         1         1         1
+3  001m 2022-12-31    1    0     0   0      0        1       1         1         1         1
+4  001m 2023-01-30    1    0     0   0      0        1       1         1         1         1 
+
+id                    object
+date_reach    datetime64[ns]
+msm                    int64
+fsw                    int64
+pwid                   int64
+tg                     int64
+other                  int64
+hiv_edu                int64
+cdm_lu                 int64
+hts_info               int64
+sti_info               int64
+prep_pep               int64
+dtype: object
+Summary Statistics Overview:
+          id           date_reach         msm         fsw        pwid     tg  other  hiv_edu  cdm_lu    hts_info  sti_info  prep_pep
+count    677                  677  677.000000  677.000000  677.000000  677.0  677.0    677.0   677.0  677.000000     677.0     677.0
+unique   110                   21         NaN         NaN         NaN    NaN    NaN      NaN     NaN         NaN       NaN       NaN
+top     040p  2022-02-01 00:00:00         NaN         NaN         NaN    NaN    NaN      NaN     NaN         NaN       NaN       NaN
+freq       9                   94         NaN         NaN         NaN    NaN    NaN      NaN     NaN         NaN       NaN       NaN
+first    NaN  2021-01-01 00:00:00         NaN         NaN         NaN    NaN    NaN      NaN     NaN         NaN       NaN       NaN
+last     NaN  2023-12-30 00:00:00         NaN         NaN         NaN    NaN    NaN      NaN     NaN         NaN       NaN       NaN
+mean     NaN                  NaN    0.449040    0.169867    0.381093    0.0    0.0      1.0     1.0    0.942393       1.0       1.0
+std      NaN                  NaN    0.497764    0.375794    0.486014    0.0    0.0      0.0     0.0    0.233171       0.0       0.0
+min      NaN                  NaN    0.000000    0.000000    0.000000    0.0    0.0      1.0     1.0    0.000000       1.0       1.0
+25%      NaN                  NaN    0.000000    0.000000    0.000000    0.0    0.0      1.0     1.0    1.000000       1.0       1.0
+50%      NaN                  NaN    0.000000    0.000000    0.000000    0.0    0.0      1.0     1.0    1.000000       1.0       1.0
+75%      NaN                  NaN    1.000000    0.000000    1.000000    0.0    0.0      1.0     1.0    1.000000       1.0       1.0
+max      NaN                  NaN    1.000000    1.000000    1.000000    0.0    0.0      1.0     1.0    1.000000       1.0       1.0
+
+Additional Information:
+Number of unique IDs: 110
+id            0
+date_reach    0
+msm           0
+fsw           0
+pwid          0
+tg            0
+other         0
+hiv_edu       0
+cdm_lu        0
+hts_info      0
+sti_info      0
+prep_pep      0
+dtype: int64
+
+Frequency Counts for Categorical Variables:
+
+msm:
+0    373
+1    304
+Name: msm, dtype: int64
+
+fsw:
+0    562
+1    115
+Name: fsw, dtype: int64
+
+pwid:
+0    419
+1    258
+Name: pwid, dtype: int64
+
+tg:
+0    677
+Name: tg, dtype: int64
+
+other:
+0    677
+Name: other, dtype: int64
+
+hiv_edu:
+1    677
+Name: hiv_edu, dtype: int64
+
+cdm_lu:
+1    677
+Name: cdm_lu, dtype: int64
+
+hts_info:
+1    638
+0     39
+Name: hts_info, dtype: int64
+
+sti_info:
+1    677
+Name: sti_info, dtype: int64
+
+prep_pep:
+1    677
+Name: prep_pep, dtype: int64
+
+Unique IDs: 110
+
+Date Range: 2021-01-01 00:00:00 to 2023-12-30 00:00:00
+Number of clients counted as prevention reach: 638
+Percentage of clients counted as prevention reach: 94.24%
+Clients not counted as prevention reach:
+       id date_reach  msm  fsw  pwid  tg  other  hiv_edu  cdm_lu  hts_info  sti_info  prep_pep
+0    001m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+7    002m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+38   006m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+45   007m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+76   011m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+83   012m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+114  016m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+121  017m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+152  021m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+159  022m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+190  026m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+197  027m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+228  031m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+235  032m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+266  036m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+273  037m 2021-01-01    1    0     0   0      0        1       1         0         1         1
+329  007f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+346  011f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+350  012f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+365  016f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+368  017f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+382  021f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+386  022f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+404  027f 2021-01-01    0    1     0   0      0        1       1         0         1         1
+419  001p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+422  002p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+437  007p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+449  011p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+456  012p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+487  016p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+494  017p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+525  021p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+532  022p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+563  026p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+570  027p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+601  031p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+608  032p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+639  036p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+646  037p 2021-01-01    0    0     1   0      0        1       1         0         1         1
+Missing services count:
+hiv_edu      0
+cdm_lu       0
+hts_info    39
+sti_info     0
+prep_pep     0
+dtype: int64

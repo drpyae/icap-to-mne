@@ -2,20 +2,22 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+import sys
+# Redirect standard output to a file
+sys.stdout = open('output.txt', 'w')
 # Load the data
 file_path = '/Users/holmes/Desktop/icap/Prevention_Data.xlsx'
 df = pd.read_excel(file_path)
 
 # Display the first few rows of the dataset to understand its structure
 print("First few rows of the dataset:")
-print(data.head(), '\n')
+print(df.head(), '\n')
 
 # Display data types
 print(df.dtypes)
 
 # Summary statistics for numerical and categorical columns
-summary_stats = data.describe(include='all')
+summary_stats = df.describe(include='all')
 # Display the summary statistics
 print("Summary Statistics Overview:")
 print(summary_stats)
@@ -23,7 +25,7 @@ print(summary_stats)
 # Additional specific statistics
 print("\nAdditional Information:")
 # Count of unique values in 'id'
-unique_ids = data['id'].nunique()
+unique_ids = df['id'].nunique()
 print(f"Number of unique IDs: {unique_ids}")
 
 # Check for missing values
@@ -91,7 +93,7 @@ total_clients = len(df)
 prevention_reach_percentage = (prevention_reach_count / total_clients) * 100
 print(f"Percentage of clients counted as prevention reach: {prevention_reach_percentage:.2f}%")
 
-clients_not_reached = df[~data[required_services].all(axis=1)]
+clients_not_reached = df[~df[required_services].all(axis=1)]
 print("Clients not counted as prevention reach:")
 print(clients_not_reached)
 
@@ -99,3 +101,8 @@ print(clients_not_reached)
 missing_services_counts = clients_not_reached[required_services].eq(0).sum()
 print("Missing services count:")
 print(missing_services_counts)
+
+# Reset standard output to the terminal
+sys.stdout = sys.__stdout__
+
+print("EDA completed. Results saved to output.txt.")
