@@ -70,14 +70,14 @@ From the summary statistics, we can infer the following:
 # visualize some of these statistics to make them more engaging and informative
 
 1. Distribution of participants across different categories.
-![img](data_visualization/distribution_participant_byCatg.png)
+![image](data_visualization/distribution_participant_byCatg.png)
 ### Observations from Category Distribution
 - MSM (Men who have Sex with Men): The largest group, with nearly 305 participants.
 - PWID (People Who Inject Drugs): The second-largest group, with about 258 participants.
 - FSW (Female Sex Workers): A smaller group, with around 115 participants.
 - TG (Transgender) and Other: Both categories have zero participants.
 2. Information coverage across various services.
-![img](data_visualization/services_coverage.png)
+![image](data_visualization/services_coverage.png)
 ### Observations from Information Coverage Across Services
 
 - HIV Education, Condom Use, STI Information, and PrEP/PEP: All these services are fully covered, with 100% of participants receiving this information.
