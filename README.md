@@ -49,7 +49,7 @@ Adjust the path according to your operating system and virtual environment direc
 ```python
 python eda.py
 ```
-## all result will be stored in output.txt file and for visual graph save to your deivce manually
+## all result will be stored in `output.txt` file and for visual graph save to your deivce manually
 # Summary Statistics Overview
 From the summary statistics, we can infer the following:
 
@@ -114,29 +114,36 @@ From the summary statistics, we can infer the following:
 
 2. Increase Engagement with Transgender and Other Key Populations:
 
-Objective: Ensure that the TG and Other categories are adequately represented and receive necessary prevention services.
-Actions:
-Collaborate with transgender advocacy groups to design inclusive outreach programs.
-Develop targeted educational materials that address the unique needs and concerns of these populations.
-Organize focus groups to understand barriers to accessing services and develop strategies to overcome them.
-Enhance Data Collection and Reporting:
+- Objective: Ensure that the TG and Other categories are adequately represented and receive necessary prevention services.
+- Actions:
+    * Collaborate with transgender advocacy groups to design inclusive outreach programs.
+    * Develop targeted educational materials that address the unique needs and concerns of these populations.
+    * Organize focus groups to understand barriers to accessing services and develop strategies to overcome them.
 
-Objective: Improve the quality and comprehensiveness of data collection to better understand service delivery and client needs.
-Actions:
-Implement digital data collection tools to ensure accurate and real-time reporting of service coverage.
-Train field staff on the importance of comprehensive data capture, including detailed demographic information.
-Conduct regular data audits to identify and address discrepancies in service delivery records.
-Tailor Prevention Programs for High-Risk Groups:
+3. Enhance Data Collection and Reporting:
 
-Objective: Develop specific interventions for MSM and PWID groups, who form the bulk of the client base.
-Actions:
-Design culturally sensitive educational campaigns that resonate with the unique experiences of MSM and PWID.
-Offer support groups and counseling services to address psychosocial challenges faced by these groups.
-Provide harm reduction services, such as needle exchange programs, specifically targeting PWID populations.
-Continuous Monitoring and Evaluation:
+- Objective: Improve the quality and comprehensiveness of data collection to better understand service delivery and client needs.
+- Actions:
+    * Implement digital data collection tools to ensure accurate and real-time reporting of service coverage.
+    * Train field staff on the importance of comprehensive data capture, including detailed demographic information.
+    * Conduct regular data audits to identify and address discrepancies in service delivery records.
 
-Objective: Ensure the ongoing effectiveness and improvement of prevention programs through robust monitoring and evaluation practices.
-Actions:
-Implement a feedback loop with clients to assess the quality and impact of services received.
-Use data analytics to identify trends and patterns in prevention reach and adjust programs accordingly.
-Set up regular review meetings with stakeholders to discuss program performance and explore new opportunities for service enhancement.
+4. Tailor Prevention Programs for High-Risk Groups:
+
+- Objective: Develop specific interventions for MSM and PWID groups, who form the bulk of the client base.
+- Actions:
+    * Design culturally sensitive educational campaigns that resonate with the unique experiences of MSM and PWID.
+    * Offer support groups and counseling services to address psychosocial challenges faced by these groups.
+    * Provide harm reduction services, such as needle exchange programs, specifically targeting PWID populations.
+
+5. Continuous Monitoring and Evaluation:
+
+- Objective: Ensure the ongoing effectiveness and improvement of prevention programs through robust monitoring and evaluation practices.
+- Actions:
+    * Implement a feedback loop with clients to assess the quality and impact of services received.
+    * Use data analytics to identify trends and patterns in prevention reach and adjust programs accordingly.
+    * Set up regular review meetings with stakeholders to discuss program performance and explore new opportunities for service enhancement.
+
+# Conclusion
+
+The analysis indicates a commendable reach in delivering comprehensive prevention services to most clients. However, there are still areas requiring attention, particularly in achieving 100% HTS coverage and engaging TG and Other key populations. By addressing these gaps, the program can enhance its impact, ensuring that all clients receive the essential services they need for effective HIV prevention. Implementing these recommendations will not only improve service delivery but also contribute to broader public health goals, ultimately reducing the incidence of HIV within these high-risk populations.
