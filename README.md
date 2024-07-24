@@ -21,11 +21,13 @@ Once the virtual environment is activated, open the Command Palette by pressing 
 
 
 ## install requirements 
-``` pip install -r requirements.txt ```
+```pyhon
+ pip install -r requirements.txt
 
 ## Create a .vscode Directory (Optional):
 To ensure VSCode always uses the virtual environment, you can create a `.vscode` directory in your project root and add a `settings.json` file with the following content:
-``` {
+``` 
+{
     "python.pythonPath": "myenv/bin/python"
 }
 ```
