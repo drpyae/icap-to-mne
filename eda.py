@@ -80,6 +80,10 @@ plt.xticks(rotation=45)
 plt.show()
 
 
+# Display service coverage
+print("Service coverage percentage:\n", service_coverage)
+
+
 # Define the required columns for prevention reach
 required_services = ['hiv_edu', 'cdm_lu', 'hts_info', 'sti_info', 'prep_pep']
 
